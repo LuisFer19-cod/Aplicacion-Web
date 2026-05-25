@@ -2,7 +2,7 @@ import mongoose from "mongoose"; // Importa la biblioteca Mongoose para interact
 import dotenv from "dotenv"; // Importa la biblioteca dotenv para cargar variables de entorno desde un archivo .env
 import express from "express"; // Importa la biblioteca Express para crear un servidor web
 import cors from "cors"; // Importa la biblioteca CORS para permitir solicitudes de diferentes orígenes
-import { test } from "./backend/controllers/alumnos.controllers.js"; // Importa la función test desde el controlador de alumnos
+import { test } from "./backend/controllers/metropolitana.controllers.js"; // Importa la función test desde el controlador de alumnos
 
 dotenv.config();
 mongoose.connect(process.env.url_bd)
